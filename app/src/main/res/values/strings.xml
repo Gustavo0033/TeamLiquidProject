@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">TeamLiquidProject</string>
+    <string name="SignUP">Sign UP</string>
+    <string name="Campeonatos">Campeonatos</string>
+    <string name="Loja">Loja</string>
     <string name="title_activity_sign_in">signIN</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

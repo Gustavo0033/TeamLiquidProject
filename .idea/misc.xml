@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_blusa_tl.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_campeonatos_tl.xml" value="0.33" />
         <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_liquid.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_main_teste.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_produto_blusa.xml" value="0.25" />
         <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_sign_up.xml" value="0.358695652173913" />
         <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/activity_store_liquid.xml" value="0.17147922998986828" />
         <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/liquid_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/liquid_main_item.xml" value="0.365625" />
+        <entry key="..\:/Users/gu200/AndroidStudioProjects/TeamLiquidProject/app/src/main/res/layout/store_liquid.xml" value="0.365625" />
       </map>
     </option>
   </component>

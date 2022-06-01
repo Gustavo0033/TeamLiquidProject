@@ -33,8 +33,11 @@ public class MainActivity extends AppCompatActivity {
         Liquidmain = findViewById(R.id.main_Liquid);
 
         List<Mainitem> mainItems = new ArrayList<>();
-        mainItems.add(new Mainitem(1, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.app_name, Color.BLUE));
-        mainItems.add(new Mainitem(1, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.app_name, Color.GREEN));
+        mainItems.add(new Mainitem(1, R.drawable._8321, R.string.Loja, Color.WHITE));
+        mainItems.add(new Mainitem(2, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.SignUP, Color.WHITE));
+        mainItems.add(new Mainitem(3, R.drawable.trof_u_png_de_ouro, R.string.Campeonatos, Color.WHITE));
+        mainItems.add(new Mainitem(4, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.SignUP, Color.WHITE));
+
 
 
 
@@ -50,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 2:
                     startActivity(new Intent(MainActivity.this, signUP.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(MainActivity.this, CampeonatosTL.class));
                     break;
             }
         });
