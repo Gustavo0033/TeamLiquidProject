@@ -30,14 +30,10 @@ public class LiquidActivity extends AppCompatActivity {
 
         rvMainLiquid = findViewById(R.id.main_rvLiquid);
         List<Mainitem> mainItems = new ArrayList<>();
-        mainItems.add(new Mainitem(1, R.drawable.captura_de_tela_2022_06_01_163703, R.string.Loja, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.captura_de_tela_2022_06_01_163722, R.string.app_name, Color.WHITE));
-        mainItems.add(new Mainitem(3, R.drawable.captura_de_tela_2022_06_01_163703, R.string.Loja, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.captura_de_tela_2022_06_01_163722, R.string.app_name, Color.WHITE));
-        mainItems.add(new Mainitem(1, R.drawable.captura_de_tela_2022_06_01_163703, R.string.Loja, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.captura_de_tela_2022_06_01_163722, R.string.app_name, Color.WHITE));
-        mainItems.add(new Mainitem(1, R.drawable.captura_de_tela_2022_06_01_163703, R.string.Loja, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.captura_de_tela_2022_06_01_163722, R.string.app_name, Color.WHITE));
+        mainItems.add(new Mainitem(1, R.drawable.jaquetaliquid, R.string.JaquetaTL, Color.WHITE));
+        mainItems.add(new Mainitem(2, R.drawable.discordnitro, R.string.DiscordNitro, Color.WHITE));
+        mainItems.add(new Mainitem(3, R.drawable.jaquetaliquid, R.string.JaquetaTL, Color.WHITE));
+        mainItems.add(new Mainitem(2, R.drawable.discordnitro, R.string.DiscordNitro, Color.WHITE));
 
         rvMainLiquid.setLayoutManager(new GridLayoutManager(this, 2));
         MainAdapter adapter = new MainAdapter(mainItems);

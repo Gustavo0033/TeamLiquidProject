@@ -4,18 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".PLAYERSTL"
+    android:background="#091624">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/main_Liquid"
-        android:layout_width="419dp"
-        android:layout_height="733dp"
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="389dp"
+        android:layout_height="655dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:listitem="@layout/liquid_main" />
-
+        app:srcCompat="@drawable/tl_rainbow_six" />
 </androidx.constraintlayout.widget.ConstraintLayout>

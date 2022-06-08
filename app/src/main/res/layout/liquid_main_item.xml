@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/item_img_icon"
-        android:layout_width="213dp"
+        android:layout_width="wrap_content"
         android:layout_height="241dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,9 +23,10 @@
 
     <TextView
         android:id="@+id/item_txt_name"
-        android:layout_width="249dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="blusa"
-        android:textColor="@color/white"
+        android:text="JAQUETA TEAM LIQUID"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 </LinearLayout>

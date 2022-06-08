@@ -8,10 +8,10 @@
     tools:context=".MainActivity"
     android:background="#23238E">
 
-    <ImageView
+     <ImageView
         android:id="@+id/Liquid_logo"
-        android:layout_width="205dp"
-        android:layout_height="201dp"
+        android:layout_width="227dp"
+        android:layout_height="357dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:text="A FAMOSA LOJA"
+
         android:textColor="#23238E"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

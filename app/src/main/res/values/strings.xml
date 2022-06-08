@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">TeamLiquidProject</string>
     <string name="SignUP">Sign UP</string>
-    <string name="Campeonatos">Campeonatos</string>
+    <string name="Players">Players</string>
+    <string name="JaquetaTL">Jaqueta Liquid</string>
+    <string name="DiscordNitro">Discord Nitro</string>
     <string name="Loja">Loja</string>
+    <string name="Campeonatos">Campeonatos</string>
+    <string name="Jaqueta">Jaqueta</string>
     <string name="title_activity_sign_in">signIN</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

@@ -33,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
         Liquidmain = findViewById(R.id.main_Liquid);
 
         List<Mainitem> mainItems = new ArrayList<>();
-        mainItems.add(new Mainitem(1, R.drawable._8321, R.string.Loja, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.SignUP, Color.WHITE));
-        mainItems.add(new Mainitem(3, R.drawable.trof_u_png_de_ouro, R.string.Campeonatos, Color.WHITE));
-        mainItems.add(new Mainitem(4, R.drawable._00px_team_liquid_2020_full_lightmode, R.string.SignUP, Color.WHITE));
+        mainItems.add(new Mainitem(1, R.drawable.sem_t_tulo_1, R.string.Loja, Color.WHITE));
+        mainItems.add(new Mainitem(2, R.drawable.signup, R.string.SignUP, Color.WHITE));
+        mainItems.add(new Mainitem(3, R.drawable.campeonatos, R.string.Campeonatos, Color.WHITE));
+        mainItems.add(new Mainitem(4, R.drawable.signin, R.string.SignUP, Color.WHITE));
+        mainItems.add(new Mainitem(5, R.drawable.liquidplayers02, R.string.Players, Color.WHITE));
 
 
 
@@ -56,6 +57,12 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case 3:
                     startActivity(new Intent(MainActivity.this, CampeonatosTL.class));
+                    break;
+                case 4:
+                    startActivity(new Intent(MainActivity.this, SIGNIN.class));
+                    break;
+                case 5:
+                    startActivity(new Intent(MainActivity.this, PLAYERSTL.class));
                     break;
             }
         });
