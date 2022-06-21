@@ -30,10 +30,12 @@ public class LiquidActivity extends AppCompatActivity {
 
         rvMainLiquid = findViewById(R.id.main_rvLiquid);
         List<Mainitem> mainItems = new ArrayList<>();
-        mainItems.add(new Mainitem(1, R.drawable.jaquetaliquid, R.string.JaquetaTL, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.discordnitro, R.string.DiscordNitro, Color.WHITE));
-        mainItems.add(new Mainitem(3, R.drawable.jaquetaliquid, R.string.JaquetaTL, Color.WHITE));
-        mainItems.add(new Mainitem(2, R.drawable.discordnitro, R.string.DiscordNitro, Color.WHITE));
+        mainItems.add(new Mainitem(1, R.drawable.ssssssssssssssssssss, R.string.AgasalhoTL, Color.WHITE));
+        mainItems.add(new Mainitem(2, R.drawable.fortiniteblusa, R.string.FortniteBLusa, Color.WHITE));
+        mainItems.add(new Mainitem(3, R.drawable.casualliquid, R.string.CasualTL, Color.WHITE));
+        mainItems.add(new Mainitem(4, R.drawable.liquidbranca, R.string.EsportivaTL, Color.WHITE));
+        mainItems.add(new Mainitem(5, R.drawable.camisetaazulcampeonato, R.string.CamisetaAzulCamp, Color.WHITE));
+        mainItems.add(new Mainitem(6, R.drawable.cal_ajogger, R.string.CalcaJogger, Color.WHITE));
 
         rvMainLiquid.setLayoutManager(new GridLayoutManager(this, 2));
         MainAdapter adapter = new MainAdapter(mainItems);
@@ -43,6 +45,9 @@ public class LiquidActivity extends AppCompatActivity {
             switch (id){
                 case 1:
                     startActivity(new Intent(LiquidActivity.this, ProdutoBlusa.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(LiquidActivity.this, LiquidFortnite.class));
                     break;
 
         }

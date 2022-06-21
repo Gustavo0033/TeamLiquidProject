@@ -5,6 +5,12 @@
     <string name="JaquetaTL">Jaqueta Liquid</string>
     <string name="DiscordNitro">Discord Nitro</string>
     <string name="Loja">Loja</string>
+    <string name="AgasalhoTL">AgasalhoTL</string>
+    <string name="CasualTL">Camiseta Casual</string>
+    <string name="EsportivaTL">Camiseta Esportiva Branca</string>
+    <string name="CamisetaAzulCamp">LVTH_N JERSEY</string>
+    <string name="CalcaJogger">Calça Jogger</string>
+    <string name="FortniteBLusa">LIQUID X FORTNITE REBOOT</string>
     <string name="Campeonatos">Campeonatos</string>
     <string name="Jaqueta">Jaqueta</string>
     <string name="title_activity_sign_in">signIN</string>
